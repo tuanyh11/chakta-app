@@ -21,7 +21,7 @@ const Exclusive = ({data}) => {
             </div>
           </div>
           <div>
-            <Row>
+            <Row className={"flex flex-nowrap overflow-scroll"}>
               {data?.map((product, i) => {
                 
                 return (
